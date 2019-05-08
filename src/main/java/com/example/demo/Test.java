@@ -15,7 +15,7 @@ public class Test {
 
     @RequestMapping(value = "hello",method = RequestMethod.GET)
     public String say(){
-        System.out.println("111");
+        System.out.println("11112323");
         return boy.getName()+","+boy.getSex()+","+boy.getAge();
     }
 }
